@@ -1,0 +1,25 @@
+{
+  "name": "fernandonagase.dev",
+  "version": "1.0.0",
+  "description": "Teste para o meu site profissional usando Next.js e GitHub Pages",
+  "main": "index.js",
+  "repository": "git@github.com:fernandoaleatorio/fernandonagase.dev.git",
+  "author": "Fernando <fernando651814@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "next build && next export",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.34",
+    "prettier": "2.8.7",
+    "typescript": "5.0.4"
+  }
+}
